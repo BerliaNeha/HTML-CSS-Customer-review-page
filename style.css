@@ -1,0 +1,25 @@
+img {
+    float: left;
+}
+
+.user1, .user2, .user3 {
+display: inline-block;
+width: 30%;
+height: 250px;
+background-color: purple;
+color: lightgray;
+border-radius: 10px;
+margin: 10px;
+}
+
+.user1 img {
+    border-radius: 50px;
+}
+
+.user2 img {
+    border-radius: 50px;
+}
+
+.user3 img {
+    border-radius : 60px;
+}
