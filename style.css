@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url("https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y");
+    background-repeat: no-repeat;
+    width:100%;
+    
+}
+
+.main{
+    background-color:white;
+    margin: 200px 0;
+}
+
+.header {
+    color:purple;
+
+}
+
+.ratings{
+    color:purple;
+    display: inlineblock;
+}
+
+.intro{
+    width:30%;
+    height: 40%;
+    padding: 20px;
+    margin: 40px;
+}
+
+.subtext{
+    color:burlywood
+}
