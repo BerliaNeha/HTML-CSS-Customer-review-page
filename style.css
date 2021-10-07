@@ -23,15 +23,39 @@ body{
 
 .ratings{
     color:purple;
-    display: inlineblock;
+    display: inline-block;
+
+
 }
+li{
+    list-style-type: none;
+}
+
+
+.star::before{
+    content:"\f005";
+    
+    
+}
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+  }
 
 .intro{
     width:30%;
     height: 40%;
     padding: 20px;
     margin: 40px;
+    display: inline-block;
 }
+
+
 
 .subtext{
     color:burlywood
