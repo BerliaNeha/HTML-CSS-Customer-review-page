@@ -28,8 +28,12 @@ body{
 
 }
 
+.ImgStar {
+    background-color:rgb(223, 212, 198);
 
-.box1, .box2, .box3{
+}
+
+.box1, .box2, .box3, .box4{
     padding:5px;
     border:1px;
     margin: 5px;
@@ -44,6 +48,11 @@ body{
 .box3{
     margin-left: 150px;
 }
+
+.ImgBox {
+    margin-left: 200px;
+}
+
 
 .star::before{
     content:"\f005";
@@ -68,7 +77,15 @@ body{
     display: inline-block;
 }
 
+.box4{
+    display: inline-block;
 
+}
+
+.ImgStar {
+display: inline-block;
+margin-top: -15px;
+}
 
 .subtext{
     color:burlywood
@@ -86,7 +103,7 @@ height: 250px;
 background-color: purple;
 color: lightgray;
 border-radius: 10px;
-margin: 10px;
+margin: 12px;
 }
 
 .user1 img {
