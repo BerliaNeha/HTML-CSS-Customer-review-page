@@ -18,13 +18,47 @@ body{
 
 .header {
     color:purple;
+    margin-bottom: 15px;
 
 }
 
 .ratings{
     color:purple;
     display: inline-block;
+
 }
+
+
+.box1, .box2, .box3{
+    padding:5px;
+    border:1px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color:rgb(223, 212, 198);
+}
+
+.box2{
+    margin-left: 100px;
+}
+
+.box3{
+    margin-left: 150px;
+}
+
+.star::before{
+    content:"\f005";
+    
+    
+}
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+  }
 
 .intro{
     width:30%;
@@ -33,6 +67,8 @@ body{
     margin: 40px;
     display: inline-block;
 }
+
+
 
 .subtext{
     color:burlywood
