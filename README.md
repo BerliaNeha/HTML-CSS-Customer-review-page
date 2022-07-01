@@ -6,9 +6,6 @@
 
 - Optimize your images and write dry css with no repetitions
 
-
-
-
-![](./FigmaPlan.png)
+![](./ReviewPage.png)
 
 
